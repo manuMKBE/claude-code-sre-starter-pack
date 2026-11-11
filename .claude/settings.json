@@ -1,0 +1,1 @@
+{"hooks":{"PostToolUse":[{"hooks":[{"command":".claude/hooks/format-after-edit.sh","type":"command"}],"matcher":"Edit|Write"}]},"permissions":{"ask":["Bash(git push*)","Bash(npm publish*)","Bash(pip upload*)"],"defaultMode":"default","deny":["Read(.env*)","Read(**/.env*)","Read(**/*.pem)","Read(**/id_rsa*)","Bash(rm -rf *)","Bash(git push --force*)","Bash(curl * | bash *)"]}}
